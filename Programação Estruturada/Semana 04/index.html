@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Programação Estruturada</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center my-4">
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <div class="card-title"><h1>Entrada do Programa</h1></div>
+                        </div>
+                        <div class="card-body">
+                            <label for="a">N1</label>
+                            <input class="form-control" type="number" id="a" value=""><br />
+                            <label for="b">N2</label>
+                            <input class="form-control" type="number" id="b" value=""><br />
+                            <div class="text-center">
+                                <button class="btn btn-primary" onclick='exercicioUm()'>Ex1</button>
+                                <button class="btn btn-primary" onclick='exercicioDois()'>Ex2</button>
+                                <button class="btn btn-primary" onclick='exercicioTres()'>Ex3</button>
+                                <button class="btn btn-primary" onclick='exercicioQuatro()'>Ex4</button>
+                                <button class="btn btn-primary" onclick='exercicioCinco()'>Ex5</button>
+                                <button class="btn btn-primary" onclick='exercicioSeisFor()'>Ex6 For</button>
+                                <button class="btn btn-primary" onclick='exercicioSeisWhile()'>Ex6 While</button>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="alert alert-primary mt-4" id="resultado"></div>
+                            <button class="btn btn-primary" onclick='limpar()'>Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center my-4">
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <div class="card-title"><h1>Consultar DDD</h1></div>
+                        </div>
+                        <div class="card-body">
+                            <label for="a">DDD</label>
+                            <input class="form-control" type="number" id="ddd" value=""><br />
+                            <div class="text-center">
+                                <button class="btn btn-primary" onclick='exercicioSete()'>Consultar</button>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="alert alert-primary mt-4" id="resultadoDDD"></div>
+                            <button class="btn btn-primary" onclick='limpar()'>Limpar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="funcoes.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
